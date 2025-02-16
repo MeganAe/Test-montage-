@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import Generator from './pages/Generator';
 import About from './pages/About';
-import Gallery from './pages/Gallery';
 import Settings from './pages/Settings';
 import Community from './pages/Community';
 
