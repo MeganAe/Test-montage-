@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import Generator from './pages/Generator';
 import About from './pages/About';
-
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -26,7 +25,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Generator />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/gallery" element={<Gallery />} />  
+                <Route path="/gallery" element={<Gallery />} />
               </Routes>
             </main>
             <Footer darkMode={darkMode} />
