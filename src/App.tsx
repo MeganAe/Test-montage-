@@ -25,7 +25,6 @@ function App() {
               <Routes>
                 <Route path="/" element={<Generator />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/gallery" element={<Gallery />} />
               </Routes>
             </main>
             <Footer darkMode={darkMode} />
